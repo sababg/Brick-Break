@@ -3,9 +3,6 @@
 
 🎮 Brick-Break is a simple yet addictive arcade game built with the Godot Engine, inspired by the classic Breakout. Move your paddle, bounce the ball, and destroy all the bricks without letting the ball fall!
 
-🕹️ Gameplay Preview
-
-Add a short gameplay GIF or screenshot here for visual appeal
 Example:
 ```markdown
 ![Gameplay Screenshot](./Assets/screenshot.png)
