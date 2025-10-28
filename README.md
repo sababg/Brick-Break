@@ -22,7 +22,7 @@
 ```
 🚀 Getting Started
 📋 Prerequisites
-- Install Godot Engine[Godot Engine](https://godotengine.org/download) (any version compatible with project.godot file)
+- Install Godot Engine [Godot Engine](https://godotengine.org/download) (any version compatible with project.godot file)
 - Clone this repository
 
 🛠️ Installation
