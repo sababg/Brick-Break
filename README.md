@@ -77,8 +77,19 @@ git push origin feature/my-feature
 ```
 5. Open a Pull Request
 
+📚 Tutorials & Articles
+Learn how this game was built step by step in these guides:
+- [Building a Classic Breakout Game in Godot – dev.to](https://dev.to/sababg/building-a-classic-breakout-game-in-godot-step-by-step-2m5g) 
+- [Building a Classic Breakout Game in Godot – Medium (TowardsDev)](https://medium.com/towardsdev/building-a-classic-breakout-game-in-godot-step-by-step-42303ad94e11) 
+
+🛠️ Technologies Used
+- Godot Engine
+- GDScript
+- 2D Physics Engine
+- Open Source Assets
+
 📜 License
-This project is licensed under the MIT [License](./LICENSE) — see the LICENSE file for details.
+This project is open-source and available under the MIT License.
 
 👤 Author
 Saba Beigi
