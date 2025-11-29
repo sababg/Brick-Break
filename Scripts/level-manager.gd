@@ -25,8 +25,9 @@ func onBrickExit(brick):
 		LevelCompleted.emit()
 		
 func SpawnBall():
-	var currentBall = Ball.instantiate()
-	currentBall.global_position =get_tree().get_nodes_in_group("BallSpawnPoint")[0].global_position
-	add_child(currentBall)
-	currentBall.AddScore.connect(func(): AddScore.emit())
-	currentBall.RemoveLife.connect(func(): RemoveLife.emit())
+	if get_tree():
+		var currentBall = Ball.instantiate()
+		currentBall.global_position =get_tree().get_nodes_in_group("BallSpawnPoint")[0].global_position
+		add_child(currentBall)
+		currentBall.AddScore.connect(func(): AddScore.emit())
+		currentBall.RemoveLife.connect(func(): RemoveLife.emit())
